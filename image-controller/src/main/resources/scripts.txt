@@ -1,0 +1,31 @@
+This file contains some scripts
+PATH
+cd .. && cd triva/spring-boot-projects/image-microservices-example
+cd image-controller
+
+
+CURL SCRIPTS
+
+    curl -X POST -H "Content-Type: application/json" \
+        -d '{
+               "imageId": 5,
+               "imageName": "Hello World",
+               "awsS3BucketContent":
+               '{
+                   "accessKey" : "xxxxxxxxxx",
+                   "secretKey": "xxxxxxxxxx"
+                   "region": "xxxxxxxxxx"
+                   "bucketName": "xxxxxxxxxx"
+               }',
+               "ftpContent" :
+               '{
+                     "serverAddress": "xxxxxxxxxx"
+                     "username":"xxxxxxxxxx"
+                     "password": "xxxxxxxxxx"
+               }'
+            }' \
+            localhost:8080/api/v1/publish
+
+
+
+

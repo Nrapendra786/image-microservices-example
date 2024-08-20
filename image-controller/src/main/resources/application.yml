@@ -1,0 +1,25 @@
+server:
+  port: 8082
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+    destination: store
+
+#AWS
+#aws:
+#     access-key: "SSKKSdldldlld39934"
+#     secret-key: "jdsskskKSdldldlld39934"
+#     region: "eu-west-1"
+#     bucket-name: "test-bucket"
+#
+##FTP
+#ftp:
+#    server-address: "localhost:89999"
+#    username: "user"
+#    password: "user"
+
+
+
+
