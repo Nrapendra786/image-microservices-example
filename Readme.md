@@ -10,5 +10,5 @@ steps needed to start the application <br/>
 2) Java 17 or higher version must be installed. <br/>
 3) aws credentials must be set in system environment. <br/>
 4) ftp must be installed or must be running as a docker container. <br/>
-5) open common package in the project and start active-mq.sh. <br/>
+5) open cmd, specify project path and start-activemq.sh. <br/>
 6) open cmd , specify project path and type  mvn spring-boot:run. <br/> 
